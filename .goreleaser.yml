@@ -1,0 +1,10 @@
+builds:
+  - main: cmd/cuikinton/main.go
+    binary: cuikinton
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+
